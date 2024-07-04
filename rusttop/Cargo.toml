@@ -1,0 +1,11 @@
+[package]
+name = "rusttop"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sohrab Behdani <behdanisohrab@gmail.com>"]
+description = "A simple process manager written in rust"
+
+[dependencies]
+crossterm = "0.26"
+tui = "0.19"
+sysinfo = "0.27"
